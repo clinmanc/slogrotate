@@ -59,7 +59,7 @@ type HandlerOptions struct {
 	// using gzip. The default is not to perform compression.
 	Compress bool `json:"compress" yaml:"compress"`
 
-	handlerOptions slog.HandlerOptions
-	builder        builder
+	HandlerOptions slog.HandlerOptions
+	Builder        Builder
 }
 ```
